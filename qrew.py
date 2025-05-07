@@ -1,6 +1,6 @@
 import streamlit as st
 
-col1,col2 = st.colums([2,3])
+col1,col2 = st.columns([2,3])
 
 with col1 :
     st.title('here is column1')
